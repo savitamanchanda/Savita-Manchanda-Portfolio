@@ -1,0 +1,53 @@
+body {
+    background-color: blak;
+    font-family: serif;
+    font-size: 110%;
+}
+
+header{
+    width: 90%;
+    margin-top: 500px;
+    margin-bottom: 300px;
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    display: inline;
+    font-size: 80px;
+    text-align:center;
+}
+
+pre{
+    padding: 10px;
+}
+
+ul li{
+    display: inline;;
+    left: 500px;
+    bottom: 550px;
+    position: relative;
+    padding: 50px;
+    color: black;
+    font-size: 25px;
+
+}
+
+img{
+    max-height: 100px;
+}
+
+.about {
+margin-left: 100px;
+margin-bottom: 800px;
+margin-top: 200px;
+margin-right: 100px;
+padding: 50px;
+
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
