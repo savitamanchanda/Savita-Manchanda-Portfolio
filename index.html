@@ -10,12 +10,8 @@
 </head>
 
 <body>
-    <header id="home" >
-        <h1>Savita Manchanda</h1>
-        <pre>S O F T W A R E   D E V E L O P E R</pre>
-        <div id="project">
-            <button><a href="#project">work</a></button>
-        </div>
+    <header>
+        <h1>SAVITA MANCHANDA</h1>
         <div>
             <ul>
                <li><a href="#home">Home</a></li>
@@ -27,21 +23,43 @@
     </header>
 
     <main>
+        <div id="home" class="home">
+            <p>Savita Manchanda</p>
+            <pre>S O F T W A R E   D E V E L O P E R</pre>
+            <button><a href="#project">work</a></button>
+        </div>
         <div id="about" class="about">
             <h2>ABOUT ME</h2>
             <img class="recent-photo" src="./assets:images/me.jpg" alt="My-Photo"/>
-            <p>I am an aspiring Software Developer, currently working full-time as an IT Business Analyst at SEI Investments and completing a part-time Full Stack Web Development Bootcamp from Columbia University. I am focused on expanding my experience designing and developing high performing websites and applications. </p>
+            <p>I am an aspiring Software Developer, currently working full-time as an IT Business Analyst at SEI Investments and completing a part-time Full Stack Web Development Bootcamp from Columbia University. I am focused on expanding my experience designing and developing high performing websites and applications.</p>
+        </div>
+        <div class="skill">
+            <h2>SKILLS</h2>
+            <span data-descr="HTML"><img class="image-1" src="./assets:images/html.png" alt="HTML"/></span>
+            <span data-descr="CSS"><img class="image-2" src="./assets:images/css.png" alt="CSS"/></span>
+            <span data-descr="Git"><img class="image-3" src="./assets:images/git.png" alt="Git"/></span>
+            <span data-descr="SQL"><img class="image-4" src="./assets:images/sql.png" alt="SQL"/></span>
         </div>
         <div id="project" class="project">
             <h2>PROJECTS</h2>
-            <a href="https://savitamanchanda.github.io/mini-project-2/"><img src="./assets:images/CSS Snippet Cheatsheet.png" alt="CSS-Snippet-Cheatsheet"></a>
+            <div id="grid">
+            <div class="grid-item">
+            <a href="https://savitamanchanda.github.io/mini-project-2/"><img class="project-1" src="./assets:images/CSS Snippet Cheatsheet.png" alt="CSS-Snippet-Cheatsheet"></a>
+            </div>
+            <div class="grid-item">
             <img class="place-holder-image-1" src="./assets:images/Placeholder-image-1.jpeg" alt="Placeholder-Image-1"/>
+            </div>
+            <div class="grid-item">
             <img class="place-holder-image-2" src="./assets:images/Placeholder-image-2.jpg" alt="Placeholder-Image-2"/>
+            </div>
+            <div class="grid-item">
             <img class="place-holder-image-3" src="./assets:images/Placeholder-image-3.jpg" alt="Placeholder-Image-3"/>
+            </div>
+            </div>
         </div>
         <div id="contact" class="contact">
         <form>
-            <h2>Get in Touch</h2>
+            <h2>GET IN TOUCH</h2>
             <p>
               <input id="username" type="text" placeholder="Name" />
             </p>
@@ -54,8 +72,9 @@
               <button>Submit</button>
             </p>
           </form>
+        </div>
         <div class="links">
-            <a href="https://github.com/savitamanchanda"><button>GitHub</button></a>  
-            <a href="https://www.linkedin.com/in/savitamanchanda"><button>Linkedin</button></a>  
-            <a href="mailto: manchandasavita3@gmail.com"><button>Email</button></a>  
+            <a href="https://github.com/savitamanchanda"><img src="./assets:images/github.png" alt="GitHub"></a>  
+            <a href="https://www.linkedin.com/in/savitamanchanda"><img src="./assets:images/linkedin.png" alt="LinkedIn"></a>  
+            <a href="mailto: manchandasavita3@gmail.com"><img src="./assets:images/gmail.png" alt="Email"></a>  
     </main>
