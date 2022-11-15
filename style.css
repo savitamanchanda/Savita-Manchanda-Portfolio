@@ -143,10 +143,10 @@ span[data-descr]:hover::after {
     left: 0px;
     bottom: 24px;
     min-width: 80px;
-    border: 1px #aaaaaa solid;
-    background-color: #13293d;
+    border: 1px black solid;
+    background-color: #007773;
     padding: 10px;
-    color: #fff;
+    color: black;
     font-size: 80%;
 }
 
@@ -166,16 +166,17 @@ span[data-descr]:hover::after {
 
 .project img {
     margin-top: 30px;
-    max-height: 500px;
-    min-height: 600px;
-    max-width: 650px;
-    min-width: 650px;
+    max-height: 450px;
+    min-height: 550px;
+    max-width: 600px;
+    min-width: 600px;
     opacity: 0.5;
 }
 
 .project img:hover{
     opacity: 1.0;
 }
+
 
 #grid {
     display: grid;
@@ -210,8 +211,6 @@ button{
     cursor: pointer;
     position: relative;
 }
-
-
 
 .links img{
     max-width: 50px;
