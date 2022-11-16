@@ -1,4 +1,4 @@
-.root{
+:root{
     --dark: #0B0A07;
     --light: #ffff;
     --font: 'Garand', serif;
@@ -8,9 +8,7 @@
 header {
     padding: 10px;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Garand', serif;
+    font-family: var(--font);
     color: var(--dark);
     background-image: linear-gradient(rgba(20, 79, 85, 0.3) 20%, rgba(14, 88, 86, 0.6) 80%);;
     position: sticky;
@@ -35,25 +33,7 @@ ul li {
     font-size: 20px;
 }
 
-a:link { 
-    text-decoration: none; 
-    color: var(--dark);
-}
-
-
-a:visited { 
-    text-decoration: none; 
-    color: var(--dark);
-}
-
-
-a:hover { 
-    text-decoration: none; 
-    color: var(--dark);
-}
-
-
-a:active { 
+a:link, a:visited, a:hover, a:active { 
     text-decoration: none; 
     color: var(--dark);
 }
@@ -61,16 +41,13 @@ a:active {
 main {
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Garand', serif;
-    color: white;
-    background-color: #0B0A07;
+    font-family: var(--font);
+    color: var(--light);
+    background-color: var(--dark);
 }
 
 .home {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 300px;
-    margin-bottom: 300px;
+    margin: 300px 0px;
     display: block;
     text-align: center;
     width: 100%;
@@ -83,12 +60,7 @@ main {
     font-size: 100px;
 }
 
-.home pre {
-    font-size: 25px;
-    margin-top: 20px;
-}
-
-.home button {
+.home pre, button {
     font-size: 25px;
     margin-top: 20px;
 }
@@ -100,7 +72,7 @@ main {
     box-shadow: inset 0px 0px 8px rgb(53, 133, 148), 0 0 15px rgb(26, 110, 119);
 }
 
-.about h2 {
+h2 {
     font-size: 50px;
 }
 
@@ -114,13 +86,10 @@ main {
 
 .about p {
     font-size: 25px;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 30px 10px 50px;
 }
 
-.skill {
+.skill, .project, .contact {
     padding: 20px;
     width: 100%;
     align-items: center;
@@ -128,10 +97,6 @@ main {
     text-align: center;
     box-shadow: inset 0px 0px 8px rgb(53, 133, 148), 0 0 15px rgb(26, 110, 119);
 
-}
-
-.skill h2 {
-    font-size: 50px;
 }
 
 .skill img {
@@ -150,7 +115,7 @@ main {
 span[data-descr] {
     position: relative;
     text-decoration: underline;
-    color: #000;
+    color: var(--dark);
     cursor: grab;
 }
 
@@ -160,33 +125,19 @@ span[data-descr]:hover::after {
     left: 0px;
     bottom: 24px;
     min-width: 80px;
-    border: 1px black solid;
+    border: 1px var(--dark) solid;
     background-color: #007773;
     padding: 10px;
-    color: black;
+    color: var(--dark);
     font-size: 80%;
 }
 
-.project {
-    padding: 20px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-}
-
-.project h2 {
-    font-size: 50px;
-    margin-bottom: 10px;
-}
-
 .project h3{
-    color: white;
+    color: var(--light);
 }
 
 .project img {
-    margin-top: 30px;
+    margin-top: 40px;
     max-height: 3000px;
     min-height: 350px;
     max-width: 400px;
@@ -205,29 +156,15 @@ span[data-descr]:hover::after {
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
     gap: 10px;
-    box-shadow: inset 0px 0px 8px rgb(53, 133, 148), 0 0 15px rgb(26, 110, 119);
-}
-
-.contact {
-    padding: 20px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: inset 0px 0px 8px rgb(53, 133, 148), 0 0 15px rgb(26, 110, 119);
-}
-
-.contact h2 {
-    font-size: 50px;
 }
 
 .contact p {
     padding: 30px;
+    font-size: 30px;
 }
 
 button{
-    color: black;
+    color: var(--dark);
     background-image: linear-gradient(rgba(20, 79, 85, 0.3) 20%, rgba(14, 88, 86, 0.6) 80%);
     padding: 5px;
     cursor: pointer;
