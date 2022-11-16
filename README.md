@@ -24,6 +24,11 @@ Please refer to the LICENSE in the repo.
 
 [portfolio](./assets%3Aimages/Savita-Manchanda-Portfolio.gif)
 
-* The URL of the deployed application -
+[screenshot-1](./assets%3Aimages/ss1.png)
+[screenshot-2](./assets%3Aimages/ss2.png)
+[screenshot-3](./assets%3Aimages/ss3.png)
+[screenshot-4](./assets%3Aimages/ss4.png)
+
+* The URL of the deployed application - https://savitamanchanda.github.io/Savita-Manchanda-Portfolio/
 
 * The URL of the GitHub repository - https://github.com/savitamanchanda/Savita-Manchanda-Portfolio
