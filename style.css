@@ -61,7 +61,7 @@ a:active {
 main {
     display: flex;
     flex-wrap: wrap;
-    font-family: var(--font);
+    font-family: 'Garand', serif;
     color: white;
     background-color: #0B0A07;
 }
@@ -77,8 +77,6 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
- 
-    font-family: 'Garand', serif;
 }
 
 .home p {
@@ -145,6 +143,10 @@ main {
     padding: 10px;
 }
 
+.skill img:hover{
+    transform: scale(1.5);
+}
+
 span[data-descr] {
     position: relative;
     text-decoration: underline;
@@ -177,6 +179,10 @@ span[data-descr]:hover::after {
 .project h2 {
     font-size: 50px;
     margin-bottom: 10px;
+}
+
+.project h3{
+    color: white;
 }
 
 .project img {
