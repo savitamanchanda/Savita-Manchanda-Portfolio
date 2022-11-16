@@ -134,6 +134,7 @@ span[data-descr]:hover::after {
 
 .project h3{
     color: var(--light);
+    box-shadow: inset 0px 0px 8px rgb(53, 133, 148), 0 0 15px rgb(26, 110, 119);
 }
 
 .project img {
