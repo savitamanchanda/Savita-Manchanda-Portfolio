@@ -52,11 +52,14 @@ main {
     display: flex;
     flex-wrap: wrap;
     font-family: 'Garand', serif;
-    color: #007773;
+    color: white;
     background-color: #0B0A07;
 }
 
 .home {
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
     text-align: center;
     width: 100%;
     align-items: center;
@@ -166,15 +169,16 @@ span[data-descr]:hover::after {
 
 .project img {
     margin-top: 30px;
-    max-height: 450px;
-    min-height: 550px;
-    max-width: 600px;
-    min-width: 600px;
+    max-height: 3000px;
+    min-height: 350px;
+    max-width: 400px;
+    min-width: 400px;
     opacity: 0.5;
 }
 
 .project img:hover{
     opacity: 1.0;
+    transform: scale(1.5);
 }
 
 
