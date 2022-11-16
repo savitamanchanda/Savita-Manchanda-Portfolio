@@ -1,12 +1,18 @@
+.root{
+    --dark: #0B0A07;
+    --light: #ffff;
+    --font: 'Garand', serif;
+ 
+}
+
 header {
     padding: 10px;
-    background-color: blck;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     font-family: 'Garand', serif;
-    color: black;
-    background-image: linear-gradient(rgba(20, 79, 85, 0.3) 20%, rgba(14, 88, 86, 0.6) 80%);
+    color: var(--dark);
+    background-image: linear-gradient(rgba(20, 79, 85, 0.3) 20%, rgba(14, 88, 86, 0.6) 80%);;
     position: sticky;
     top: 0;
 }
@@ -27,31 +33,31 @@ ul li {
 
 a:link { 
     text-decoration: none; 
-    color: black;
+    color: var(--dark);
 }
 
 
 a:visited { 
     text-decoration: none; 
-    color: black;
+    color: var(--dark);
 }
 
 
 a:hover { 
     text-decoration: none; 
-    color: black;
+    color: var(--dark);
 }
 
 
 a:active { 
     text-decoration: none; 
-    color: black;
+    color: var(--dark);
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Garand', serif;
+    font-family: var(--font);
     color: white;
     background-color: #0B0A07;
 }
