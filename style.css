@@ -17,6 +17,11 @@ header {
     top: 0;
 }
 
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 h1 {
     display: inline-block;
     font-size: 20px;
@@ -27,7 +32,6 @@ ul li {
     margin-left: 50px;
     position: relative;
     align-items: flex-end;
-    left: 750px;
     font-size: 20px;
 }
 
@@ -65,13 +69,15 @@ main {
 .home {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 300px;
+    margin-bottom: 300px;
     display: block;
     text-align: center;
     width: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 300px;
+ 
     font-family: 'Garand', serif;
 }
 
