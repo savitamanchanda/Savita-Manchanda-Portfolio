@@ -228,6 +228,11 @@ button{
     position: relative;
 }
 
+.links{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .links img{
     max-width: 50px;
     max-height: 50px;
@@ -237,7 +242,6 @@ button{
     margin-left: 50px;
     position: relative;
     align-items: flex-end;
-    left: 950px;
 }
 
 footer{
